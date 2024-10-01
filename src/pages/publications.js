@@ -23,14 +23,36 @@ const publications = [
         journal: 'Journal of Rare Diseases',
         year: '2019',
         url: 'https://example.com'
+    },
+    {
+        title: 'Advances in rare disease research',
+        authors: 'R. Dawes, J. Smith, and K. Johnson',
+        journal: 'Journal of Rare Diseases',
+        year: '2019',
+        url: 'https://example.com'
+    },
+
+    {
+        title: 'Advances in rare disease research',
+        authors: 'R. Dawes, J. Smith, and K. Johnson',
+        journal: 'Journal of Rare Diseases',
+        year: '2019',
+        url: 'https://example.com'
+    },
+    {
+        title: 'Advances in rare disease research',
+        authors: 'R. Dawes, J. Smith, and K. Johnson',
+        journal: 'Journal of Rare Diseases',
+        year: '2019',
+        url: 'https://example.com'
     }
 ];
 
 
-const Publication = ({ key, title, authors, journal, year, url }) => {
+const Publication = ({ id, title, authors, journal, year, url }) => {
     return (
         <div className="mb-4">
-            <h5 className="text-lg font-bold">{key}. {title}</h5>
+            <h5 className="text-lg font-bold">{id+1}. {title}</h5>
             <p className="text-sm">{authors}</p>
             <p className="text-sm">{journal}, {year}</p>
             <a href={url} className="text-sm text-blue-500 hover:underline">{url}</a>
@@ -48,7 +70,7 @@ const PublicationsPage = () => {
             <section className="text-gray-700">
                 <h4 className="text-2xl font-bold mb-2">Publications</h4>
                 {publications.map((publication, index) => (
-                    <Publication key={index} {...publication} />
+                    <Publication key={index} id={index} {...publication} />
                 ))}
             </section>
         </Layout>

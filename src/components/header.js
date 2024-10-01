@@ -19,11 +19,11 @@ const Header = () => {
   ];
 
   return (
-    <header className="bg-[#efe7dc] flex flex-col justify-center items-center p-4 mt-4" style={{}}>
+    <header className="bg-[#FAA275] flex flex-col justify-center items-center p-4 " style={{}}>
       <img
         src='https://pbs.twimg.com/profile_images/1185996917974753280/ksIHCycs_400x400.jpg'
         alt="Ruebena Dawes Avatar"
-        className="w-28 h-28 rounded-full mb-4 shadow-md"
+        className="w-40 h-40 rounded-full mb-4 shadow-md border-white border-4"
       />
       <h1 className="text-4xl font-bold mb-2">Dr. Ruebena Dawes</h1>
       <h2 className="text-2xl mb-2">Postdoctoral Researcher</h2>
@@ -37,8 +37,8 @@ const Header = () => {
         </div>
         <ul className={`flex flex-col md:flex-row justify-center space-y-2 md:space-y-0 md:space-x-6 ${isMenuOpen ? 'block' : 'hidden md:flex'}`}>
           {navItems.map(({ to, text, Icon }) => (
-            <li key={to} className="border border-gray-800 rounded-md p-2">
-              <Link to={to} className="text-gray-600 hover:text-purple-800  tracking-wide flex items-center">
+            <li key={to} className="border border-white hover:border-black rounded-md p-2">
+              <Link to={to} className="text-white hover:text-black  tracking-wide flex items-center">
                 <Icon size={20} className="mr-2" />
                 {text}
               </Link>
