@@ -4,77 +4,92 @@ import Seo from '../components/seo';
 
 const publications = [
     {
-        title: 'De novo variants in the RNU4-2 snRNA cause a frequent neurodevelopmental syndrome',
-        authors: 'Chen Y, DAWES R, Kim HC, Ljungdahl A, Stenton SL, Walker S, [112 authors], Whiffin N.',
-        journal: 'Nature',
-        year: '2024',
-        url: 'https://www.nature.com/articles/s41586-024-07773-7'
+        title: 'Using SpliceAI to triage splice-altering variants in 7,220 individuals with rare conditions highlights limitations of the precomputed scores',
+        authors: 'Martin-Geary AC, Lecoquierre F, Walker S, Whiffin N, Dawes R.',
+        journal: 'medRxiv',
+        year: '2025',
+        url: 'https://doi.org/10.1101/2025.08.27.25334471',
+        note: 'Preprint · Senior author'
     },
     {
-        title: 'Refining clinically relevant parameters for mis-splicing risk in shortened introns with donor-to-branchpoint space constraint',
-        authors: 'Zhang K, Joshi H, Marchant R, Bryen S, DAWES R, Yuen M, Cooper S, Evesson F.',
-        journal: 'European Journal of Human Genetics',
+        title: 'De novo variants in the RNU4-2 snRNA cause a frequent neurodevelopmental syndrome',
+        authors: 'Chen Y, Dawes R, Kim HC, et al., Whiffin N.',
+        journal: 'Nature',
         year: '2024',
-        url: 'https://example.com'
-    },{
+        url: 'https://www.nature.com/articles/s41586-024-07773-7',
+        note: null
+    },
+    {
         title: 'Systematic identification of disease-causing promoter and untranslated region variants in 8,040 undiagnosed individuals with rare disease',
-        authors: 'Martin-Geary AC, Blakes AJM, DAWES R, Findlay SD, Lord J, Walker S, Talbot-Martin J, Wieder N, D\'Souza EN, Fernandes M, Hilton S, Lahiri N, Campbell C, Jenkinson S, DeGoede CGEL, Anderson ER, Burge CB, Sanders SJ, Ellingford J, Baralle D, Banka S, Whiffin N.',
-        journal: 'medRxiv',
-        year: '2023',
-        url: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10516070/'
+        authors: 'Martin-Geary AC, Blakes AJM, Dawes R, et al., Whiffin N.',
+        journal: 'Genome Medicine',
+        year: '2025',
+        url: 'https://link.springer.com/article/10.1186/s13073-025-01464-2',
+        note: null
     },
     {
         title: 'SpliceVault predicts the precise nature of variant-associated mis-splicing',
-        authors: 'DAWES R, Bournazos AM, Bryen SJ, Bommireddipalli S, Marchant RG, Joshi H, Cooper ST',
+        authors: 'Dawes R, Bournazos AM, Bryen SJ, Bommireddipalli S, Marchant RG, Joshi H, Cooper ST.',
         journal: 'Nature Genetics',
         year: '2023',
-        url: 'https://www.nature.com/articles/s41588-022-01293-8'
-    },
-    {
-        title: 'Prevalence, parameters, and pathogenic mechanisms for splice-altering acceptor variants that disrupt the AG exclusion zone',
-        authors: 'Bryen SJ, Yuen M, Joshi H, DAWES R, Zhang K, Lu JK, Jones KJ, Liang C, Wong W, Peduto AJ, Waddell LB, Evesson FJ, Cooper ST',
-        journal: 'Human Genetics and Genomics Advances',
-        year: '2022',
-        url: 'https://www.cell.com/hgg-advances/fulltext/S2666-2477(22)00041-0'
+        url: 'https://www.nature.com/articles/s41588-022-01293-8',
+        note: 'First author'
     },
     {
         title: 'Empirical prediction of variant-activated cryptic splice donors using population-based RNA-Seq data',
-        authors: 'DAWES R, Joshi H, Cooper ST',
-        journal: 'Nature communications',
+        authors: 'Dawes R, Joshi H, Cooper ST.',
+        journal: 'Nature Communications',
         year: '2022',
-        url: 'https://www.nature.com/articles/s41467-022-29271-y'
+        url: 'https://www.nature.com/articles/s41467-022-29271-y',
+        note: 'First author'
     },
-
+    {
+        title: 'Prevalence, parameters, and pathogenic mechanisms for splice-altering acceptor variants that disrupt the AG exclusion zone',
+        authors: 'Bryen SJ, Yuen M, Joshi H, Dawes R, et al., Cooper ST.',
+        journal: 'Human Genetics and Genomics Advances',
+        year: '2022',
+        url: 'https://www.cell.com/hgg-advances/fulltext/S2666-2477(22)00041-0',
+        note: null
+    },
     {
         title: 'Standardized practices for RNA diagnostics using clinically accessible specimens reclassifies 75% of putative splicing variants',
-        authors: 'Bournazos AM, Riley LG, Bommireddipalli S, Ades L, Akesson LS, Al-Shinnag M, Alexander SI, Archibald AD, Balasubramaniam S, Berman Y, Beshay V, Boggs K, Bojadzieva J, Brown NJ, Bryen SJ, Buckley MF, Chong B, Davis MR, DAWES R,[89 authors], Cooper ST',
+        authors: 'Bournazos AM, Riley LG, Bommireddipalli S, Dawes R, et al., Cooper ST.',
         journal: 'Genetics in Medicine',
         year: '2022',
-        url: 'https://www.sciencedirect.com/science/article/pii/S1098360021041289'
+        url: 'https://www.sciencedirect.com/science/article/pii/S1098360021041289',
+        note: null
+    },
+    {
+        title: 'Pro-inflammatory dopamine-2 receptor-specific T cells in paediatric movement and psychiatric disorders',
+        authors: 'Pilli D, Zou A, Dawes R, et al., Brilot F.',
+        journal: 'Clinical & Translational Immunology',
+        year: '2020',
+        url: 'https://doi.org/10.1002/cti2.1229',
+        note: null
     },
     {
         title: 'Gene discovery informatics toolkit defines candidate genes for unexplained infertility and prenatal or infantile mortality',
-        authors: 'DAWES R, Lek M, Cooper ST',
-        journal: 'NPJ genomic medicine',
+        authors: 'Dawes R, Lek M, Cooper ST.',
+        journal: 'NPJ Genomic Medicine',
         year: '2019',
-        url: 'https://www.nature.com/articles/s41525-019-0081-z'
-    }
+        url: 'https://www.nature.com/articles/s41525-019-0081-z',
+        note: 'First author'
+    },
 ];
 
-
-const Publication = ({ id, title, authors, journal, year, url }) => {
+const Publication = ({ id, title, authors, journal, year, url, note }) => {
     return (
-        <div className="mb-4">
-            <h5 className="text-lg font-bold">{id+1}. {title}</h5>
-            <p className="text-sm">{authors}</p>
-            <p className="text-sm">{journal}, {year}</p>
-            <a href={url} className="text-sm text-blue-500 hover:underline">{url}</a>
+        <div className="mb-6">
+            <p className="font-semibold leading-snug">
+                {id + 1}.{' '}
+                <a href={url} target="_blank" rel="noreferrer">{title}</a>
+                {note && <span className="ml-2 text-xs font-normal bg-orange-100 text-orange-800 px-2 py-0.5 rounded-full">{note}</span>}
+            </p>
+            <p className="text-sm text-gray-600 mt-1">{authors}</p>
+            <p className="text-sm text-gray-500 italic">{journal}, {year}</p>
         </div>
     );
-}
-
-
-
+};
 
 const PublicationsPage = () => {
     return (
@@ -82,12 +97,18 @@ const PublicationsPage = () => {
             <Seo title="Publications" />
             <section className="text-gray-700">
                 <h4 className="text-2xl font-bold mb-2">Publications</h4>
-                {publications.map((publication, index) => (
-                    <Publication key={index} id={index} {...publication} />
+                <p className="text-sm text-gray-500 mb-8">
+                    3 first-author papers · 148+ citations ·{' '}
+                    <a href="https://scholar.google.com/citations?user=S2rkx9wAAAAJ" target="_blank" rel="noreferrer">Google Scholar</a>
+                    {' · '}
+                    <a href="https://orcid.org/0000-0003-2135-0117" target="_blank" rel="noreferrer">ORCID</a>
+                </p>
+                {publications.map((pub, index) => (
+                    <Publication key={index} id={index} {...pub} />
                 ))}
             </section>
         </Layout>
     );
-}
+};
 
 export default PublicationsPage;
