@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'gatsby';
-import { Menu, Home, BookOpen, Mail, Microscope, Mic, Code2 } from 'lucide-react';
+import { Menu, Home, BookOpen, Mail, Microscope, Code2 } from 'lucide-react';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,7 +14,6 @@ const Header = () => {
     { to: "/work", text: "Research", Icon: Microscope },
     { to: "/publications", text: "Publications", Icon: BookOpen },
     { to: "/software", text: "Software & Tools", Icon: Code2 },
-    { to: "/talks", text: "Talks", Icon: Mic },
     { to: "/contact", text: "Contact", Icon: Mail },
   ];
 
@@ -26,9 +25,6 @@ const Header = () => {
         className="w-40 h-40 rounded-full mb-4 shadow-md border-white border-4"
       />
       <h1 className="text-4xl font-bold mb-2">Dr. Ruebena Dawes</h1>
-      <h2 className="text-2xl mb-2">NHMRC Investigator Fellow (EL1)</h2>
-      <h4 className="text-md mb-1">Nuffield Department of Medicine · University of Oxford</h4>
-      <h4 className="text-md mb-2">Visiting Scientist · Garvan Institute of Medical Research</h4>
       <nav className="w-full mt-4">
         <div className="md:hidden">
           <button onClick={toggleMenu} className="text-gray-600 hover:text-purple-800">
